@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6554db22accd0887edac4b0c75d7d3a3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6554db22accd0887edac4b0c75d7d3a3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6554db22accd0887edac4b0c75d7d3a3 = L.map(
+                "map_6554db22accd0887edac4b0c75d7d3a3",
+                {
+                    center: [18.952389810390983, -70.54906852736485],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_6554db22accd0887edac4b0c75d7d3a3);
+
+            
+
+        
+    
+            var tile_layer_67205a9bcc3968f69ab2c806806b6cd6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_67205a9bcc3968f69ab2c806806b6cd6.addTo(map_6554db22accd0887edac4b0c75d7d3a3);
+        
+    
+            var marker_97dbfa7e5532abe7f92b3efcfff3ae76 = L.marker(
+                [18.4615, 69.89],
+                {
+}
+            ).addTo(map_6554db22accd0887edac4b0c75d7d3a3);
+        
+    
+        var popup_1cb77f5c42b5879e667dfa216219af49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce4af2aee50720e209ed23e70d460fd3 = $(`<div id="html_ce4af2aee50720e209ed23e70d460fd3" style="width: 100.0%; height: 100.0%;">Cedula: 1516151<br>Nombre: Joseph<br>Fecha: 21/04/2004<br>Que se robaron :grafica<br>Valor:3500<br>Direccion:villa cerro </div>`)[0];
+                popup_1cb77f5c42b5879e667dfa216219af49.setContent(html_ce4af2aee50720e209ed23e70d460fd3);
+            
+        
+
+        marker_97dbfa7e5532abe7f92b3efcfff3ae76.bindPopup(popup_1cb77f5c42b5879e667dfa216219af49)
+        ;
+
+        
+    
+    
+            marker_97dbfa7e5532abe7f92b3efcfff3ae76.bindTooltip(
+                `<div>
+                     Cedula: 1516151<br>Nombre: Joseph<br>Fecha: 21/04/2004<br>Que se robaron :grafica<br>Valor:3500<br>Direccion:villa cerro 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_65a669aabe6a6218f6860b466e105d61 = L.marker(
+                [18.4615, -69.8965],
+                {
+}
+            ).addTo(map_6554db22accd0887edac4b0c75d7d3a3);
+        
+    
+        var popup_76cfe6ebc229c6b8adfc640a7bd30960 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8f983d9c52b091f64fca0f77987dac1 = $(`<div id="html_a8f983d9c52b091f64fca0f77987dac1" style="width: 100.0%; height: 100.0%;">Cedula: 5161161<br>Nombre: prueba<br>Fecha: 21.11.2025<br>Que se robaron :ffdf<br>Valor:3500<br>Direccion:sdf </div>`)[0];
+                popup_76cfe6ebc229c6b8adfc640a7bd30960.setContent(html_a8f983d9c52b091f64fca0f77987dac1);
+            
+        
+
+        marker_65a669aabe6a6218f6860b466e105d61.bindPopup(popup_76cfe6ebc229c6b8adfc640a7bd30960)
+        ;
+
+        
+    
+    
+            marker_65a669aabe6a6218f6860b466e105d61.bindTooltip(
+                `<div>
+                     Cedula: 5161161<br>Nombre: prueba<br>Fecha: 21.11.2025<br>Que se robaron :ffdf<br>Valor:3500<br>Direccion:sdf 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
