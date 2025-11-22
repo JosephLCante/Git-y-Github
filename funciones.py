@@ -1,4 +1,3 @@
-# funciones.py (actualizado con validaciones)
 from folium.map import Tooltip
 import datos
 from peewee import *
