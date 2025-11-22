@@ -1,4 +1,3 @@
-# funciones.py (actualizado con validaciones)
 from folium.map import Tooltip
 import datos
 from peewee import *
@@ -372,4 +371,3 @@ def Actualizar():
         print("Error al guardar los cambios:", e)
 
     input("Enter para continuar...")
-
